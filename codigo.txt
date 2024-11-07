@@ -25,10 +25,15 @@
     </style>
 </head>
 <body>
+
+	<h1>ALTERAÇÃO DE CODIGO</h1>
     <h1>Cálculo de Salário do Funcionário</h1>
     <form id="formFuncionario">
         <label for="nome">Nome do Funcionário:</label>
         <input type="text" id="nome" required>
+
+ 	<label for="nome">telefone</label>
+        <input tel id="telefone" required>
 
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" required>
